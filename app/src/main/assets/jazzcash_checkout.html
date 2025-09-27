@@ -1,0 +1,13 @@
+val params = generateParams()
+
+val html = """
+<html>
+<body onload="document.forms[0].submit()">
+<form method="post" action="https://sandbox.jazzcash.com.pk/CustomerPortal/TransactionManagement/Transaction/Index">
+    ${params.entries.joinToString("") { "<input type='hidden' name='${it.key}' value='${it.value}' />" }}
+</form>
+</body>
+</html>
+""".trimIndent()
+
+webView.loadData(html, "text/html", "UTF-8")

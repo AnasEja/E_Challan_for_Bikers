@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "217024765409",
+    "firebase_url": "https://e-challan-6fdf7-default-rtdb.firebaseio.com",
+    "project_id": "e-challan-6fdf7",
+    "storage_bucket": "e-challan-6fdf7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217024765409:android:eb8617d6f11c3f67f546a0",
+        "android_client_info": {
+          "package_name": "com.example.e_challan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217024765409-9qqqr73vpj98vad1ld40qk0n95k25mkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_challan",
+            "certificate_hash": "ebf3a6492b1363f7edfaf2ee48e9e4632922602c"
+          }
+        },
+        {
+          "client_id": "217024765409-do2ho4k5akuom6o840le03ft5udf42kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBocf9qSYz-kQVZpoPyT5IG4bVaa6-2ulo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217024765409-do2ho4k5akuom6o840le03ft5udf42kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
